@@ -11,7 +11,7 @@
 
 <!-- Web Fonts -->
 <link href="../../css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <!-- Stylesheet
 ============================== -->
 <!-- Bootstrap -->
@@ -20,12 +20,17 @@
 <link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css">
 <!-- Owl Carousel -->
 <link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+
 <!-- Magnific Popup -->
 <link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css">
 <!-- Custom Stylesheet -->
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="css/certificados.css">
+<link rel="stylesheet" type="text/css" href="css/Sliders-Certificados.css">
 <!-- Colors Css -->
 <link id="color-switcher" type="text/css" rel="stylesheet" href="#">
+<!-- garantia Css -->
+<link rel="stylesheet" type="text/css" href="css/garantia.css">
 </head>
 
 <body class="side-header" data-bs-spy="scroll" data-bs-target="#header-nav" data-bs-offset="1">
@@ -65,9 +70,9 @@
             <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Inicio</a></li>
             <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Acerca de BzSoftwares</a></li>
             <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">Servicios</a></li>
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#lenguaje">Lenguajes</a></li>
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Tecnológias</a></li>
-            <li class="nav-item"><a class="" href="index.html">Garantia</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#garantia">Garantia</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#precios">Precios</a></li>
+            <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contrata</a></li>
           </ul>
         </div>
         <!-- redes del menu lateral -->
@@ -169,7 +174,8 @@
     
     <!-- Resume end --> 
     <!-- Services
-    ============================================= -->
+============================================= -->
+
     <section id="services" class="section bg-light">
       <div class="container px-lg-5"> 
         <!-- Heading -->
@@ -177,96 +183,113 @@
           <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Bz Software</h2>
           <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Servicios<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
         </div>
-<!-- servicios 1 page-->
+<!-- serviciosModales -->
+<!-- servicios 1  <label data-bs-toggle="modal" data-bs-target="#googlecertificados"> page -->
         <div class="container">
           <div class="row">
             <div class="col-sm">
-              <div class="card">
-                <h5 class="card-header">Desarrollo WEB</h5>
+              <label data-bs-toggle="modal" data-bs-target="#DesarrolloWeb" ><div class="card Servicios">
+                <h5 class="card-header border-bottom  border-primary">Desarrollo WEB</h5>
                 <div class="card-body">
                   <h5 class="card-title">Estatica | Dinamica</h5>
                   <p class="card-text">Woordpress, E-coomerce, E-Learning, DHTML, Proyectos Personalizados.</p>
-                </div>
+                </div></label>
               </div>
             </div>
             <div class="col-sm">
-              <div class="card">
-                <h5 class="card-header">Desarrollo Movil</h5>
+              <label data-bs-toggle="modal" data-bs-target="#DesarrolloMovil">
+              <div class="card Servicios">
+                <h5 class="card-header border-bottom  border-primary">Desarrollo Movil</h5>
                 <div class="card-body">
                   <h5 class="card-title">Nativa | Hibrida | Multisistema</h5>
                   <p class="card-text">Mockups, Android, IOS, FrontEnd & BackEnd.</p>
                 </div>
               </div>
+            </label>
             </div>
             <div class="col-sm">
-              <div class="card">
-                <h5 class="card-header">Desarrollo Monolítico</h5>
+              <label data-bs-toggle="modal" data-bs-target="#DesarrolloMonolitico">
+              <div class="card Servicios">
+                <h5 class="card-header border-bottom  border-primary">Desarrollo Monolítico</h5>
                 <div class="card-body">
                   <h5 class="card-title">Aplicaciones de Escritorio</h5>
                   <p class="card-text">Aplicacion de escritorio para sistemas operativos, WINDOWS, LINUX.</p>
                 </div>
               </div>
+            </label>
             </div>
           </div>
 <p></p> 
 <!-- Servicios 2 page -->
           <div class="row" id="servicios2">
             <div class="col-sm">
-              <div class="card">
-                <h5 class="card-header">DevOps</h5>
+              <label data-bs-toggle="modal" data-bs-target="#DevOps">
+              <div class="card Servicios">
+                <h5 class="card-header border-bottom  border-primary">DevOps</h5>
                 <div class="card-body">
-                  <h5 class="card-title">TI | Cyberseguridad</h5>
-                  <p class="card-text">Manejo de subversiones y practicas de Refactoring para la mejora del ciclo de desarrollo del software.</p>
+                  <h5 class="card-title">Desarrollo | Cyberseguridad</h5>
+                  <p class="card-text">Manejo de subversiones y practicas de Refactoring para la mejora del ciclo de desarrollo del software y agilidad en entrega de nuestros desarrollos.</p>
                 </div>
               </div>
+            </label>
             </div>
             <div class="col-sm">
-              <div class="card">
-                <h5 class="card-header">OutSourcing (Consultoria)</h5>
+              <label data-bs-toggle="modal" data-bs-target="#OutSorcing">
+              <div class="card Servicios">
+                <h5 class="card-header border-bottom  border-primary">OutSourcing (Consultoria)</h5>
                 <div class="card-body">
                   <h5 class="card-title">Asesoría para Proyectos y Empresas</h5>
                   <p class="card-text">Consultoria para el analisis y mejoramiento de proyectos o empresas y planteamiento de estrategias entre mas...</p>
                 </div>
               </div>
+              </label>
             </div>
             <div class="col-sm">
-              <div class="card">
-                <h5 class="card-header">Marketing y Publicidad</h5>
+              <label data-bs-toggle="modal" data-bs-target="#Marketing">
+              <div class="card Servicios">
+                <h5 class="card-header border-bottom  border-primary">Marketing y Publicidad</h5>
                 <div class="card-body">
                   <h5 class="card-title">Posicionamiento | Manejo de Redes Sociales</h5>
                   <p class="card-text">Marketing, publicidad, estudios de mercado, posicionamiento SEM y SEO, marketing digital.</p>
                 </div>
               </div>
+              </label>
             </div>
           </div>
 <!-- Servicios 3 page --><p></p>
 <div class="row" id="servicios2">
   <div class="col-sm">
-    <div class="card">
-      <h5 class="card-header">Cloud Computing</h5>
+    <label data-bs-toggle="modal" data-bs-target="#Cloud">
+    <div class="card Servicios">
+      <h5 class="card-header border-bottom  border-primary">Cloud Computing</h5>
       <div class="card-body">
         <h5 class="card-title">Big Data</h5>
         <p class="card-text">Inteligencia de datos, uso de servicios, procesos seguros y escalables con informática en la nube.</p>
       </div>
     </div>
+  </label>
   </div>
   <div class="col-sm">
-    <div class="card">
-      <h5 class="card-header">Ingeniería y arquitectura</h5>
-      <div class="card-body">
-        <h5 class="card-title">Metodologias | Arquitecturas | Patrones de diseño</h5>
-        <p class="card-text"> Delimitacion del desarrollo Desarrollo de proyectos  basado en recursos y magnitud.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm">
-    <div class="card">
-      <h5 class="card-header">Soporte Adminsitrativo | técnico remoto</h5>
+    <label data-bs-toggle="modal" data-bs-target="#Soporte">
+    <div class="card Servicios">
+      <h5 class="card-header border-bottom  border-primary">Soporte Adminsitrativo | técnico remoto</h5>
       <div class="card-body">
         <h5 class="card-title">Analisis Preventivo | Correctivo</h5>
         <p class="card-text">Mantenimiento a sistemas y Configuracion o migracion de servicios.</p>
       </div>
     </div>
+  </label>
+  </div>
+  <div class="col-sm">
+    <label data-bs-toggle="modal" data-bs-target="#Arquitectura">
+    <div class="card Servicios">
+      <h5 class="card-header border-bottom  border-primary text-primary">Muestras</h5>
+      <div class="card-body">
+        <h5 class="card-title">Escoje alguno de estos diseños que gustes Adquirir </h5>
+        <p class="card-text"> Si escojes alguno de estos diseños sera para entrega inmediata, es decir en el menor tiempo posible se te podria entregar</p>
+      </div>
+    </div>
+  </label>
   </div>
 </div>
 
@@ -274,89 +297,110 @@
       </div>
     </section>
     <!-- Services end --> 
-    
-    <section id="lenguaje" class="section bg-light">
+<!-- garantia -->
+    <section id="garantia" class="section bg-light">
       <div class="container px-lg-5"> 
         <!-- Heading -->
         <div class="position-relative d-flex text-center mb-5">
           <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Bz Software</h2>
-          <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Servicios<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+          <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">garantia<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
         </div>
-        <!-- Heading end-->
-        
-        <div class="row">
-          <div class="col-lg-11 mx-auto">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-5">
-                  <div class="featured-box-icon text-primary bg-white shadow-sm rounded">
-                    <i class="fas"><img src="images/certificaciones/sep.png" style="width:80%;"></i> </div>
-                  <h3>S.E.P.</h3>
-                  <p class="mb-0">Secretaría de Educación Pública.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-5">
-                  <div class="featured-box-icon text-primary bg-white shadow-sm rounded">
-                     <i class="fas"><img src="images/certificaciones/google.png" style="width:80%;"></i></div>
-                  <h3>Google</h3>
-                  <p class="mb-0">Google Corporation.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-5">
-                  <div class="featured-box-icon text-primary bg-white shadow-sm rounded">
-                     <i class="fas">
-                      <img src="images/certificaciones/cisco.png" style="width:50%;"></i> </div>
-                  <h3>CISCO</h3>
-                  <p class="mb-0">Empresa de Tecnologia, redes y ciberseguridad.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-5">
-                  <div class="featured-box-icon text-primary bg-white shadow-sm rounded">
-                     <i class="fas">
-                      <img src="images/certificaciones/microsoft.png" style="width:50%;">
-                     </i> </div>
-                  <h3>Microsoft</h3>
-                  <p class="mb-0">Microsoft Corporation es una empresa tecnológica multinacional.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-5 mb-md-0">
-                  <div class="featured-box-icon text-primary bg-white shadow-sm rounded">
-                     <i class="fas">
-                      <img src="images/certificaciones/slim.png" style="width:100%;">
-                     </i> </div>
-                  <h3>Fundación Carlos SLIM</h3>
-                  <p class="mb-0">Organizacion sin fines de lucro con el objetivo de buscar soluciones.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-0">
-                  <div class="featured-box-icon text-primary bg-white shadow-sm rounded">
-                     <i class="fas">
-                      <img src="images/certificaciones/ibm.png" style="width:60%;">
-                     </i> </div>
-                  <h3>IBM</h3>
-                  <p class="mb-0">International Business Machines Corporation empresa multinacional estadounidense de tecnología .</p>
-                </div>
-              </div>
-              <div class="text-center mt-5"><a href="#" class="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2">Otras Certificaciones o Reconocimientos  <span class="ms-1"><i class="fas fa-plus"></i></span></a></div>
-            </div>
-          </div>
+        <!-- Aqui va garantia-->
+    <!-- cards garantia -->
+    <center><div class="container">
+      <div class="row">
+        <div class="col">
+          <a href="#precios" class="data-card">
+            <small><h3>1 Semana</h3></small>
+            <h4>En cambios</h4>
+            <p>Como Textos, Colores, Imagenes, Eslogan, ETC...</p>
+            <span class="link-text">
+              Gratis en toda contratacion
+            </span>
+          </a>
+      
+        </div>
+        <div class="col">
+          <a href="#precios" class="data-card">
+            <h3>6 meses</h3>
+            <h4 >De Soporte</h4>
+            <p>En caso de problemas, errores del host, mal funcionamiento, asesoria ETC...</p>
+            <span class="link-text">
+              Gratis en toda contratacion
+            </span>
+          </a>
         </div>
       </div>
+    </center>
+<!-- cards garantia end -->
+      </div>
     </section>
-    <!-- lenguaje end --> 
-    
- 
-    
-    <!-- Testimonial
-    ============================================= -->
-
-    <!-- Testimonial end --> 
-    
+<!-- garantia end --> 
+    <!-- ofertas  -->
+    <section id="precios" class="section bg-light">
+      <div class="container px-lg-5"> 
+        <!-- Heading -->
+        <div class="position-relative d-flex text-center mb-5">
+          <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Bz Software</h2>
+          <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Todos los Precios son personalizados a lo que necesites<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p></div>
+<!-- ofertasimage -->
+<div class="row" id="servicios2">
+  <div class="col-sm">
+    <label data-bs-toggle="modal" data-bs-target="#contratacion40">
+    <div class="card Servicios">
+      <h5 class="card-header border-bottom  border-primary"><b>Primera vez con BzSoftwares</b></h5>
+      <div class="card-body prueba">
+        <img class="imgofertas" style="width:20vw; height: 20vw;" src="/images/ofertas/oferta1.jpg">
+      </div>
+    </div>
+  </label>
+  </div>
+  <div class="col-sm">
+    <label data-bs-toggle="modal" data-bs-target="#pagoseguro">
+    <div class="card Servicios">
+      <h5 class="card-header border-bottom  border-primary"><b>Metodos de pagos seguros</b></h5>
+      <div class="card-body">
+        <img class="imgofertas"  sizes="(max-width: 320px) 280px,
+        (max-width: 480px) 440px,
+        800px" style="width:20vw; height: 20vw;" src="/images/ofertas/oferta3.jpg">
+      </div>
+    </div>
+    </label>
+  </div>
+  <div class="col-sm">
+    <label data-bs-toggle="modal" data-bs-target="#cotizacion">
+    <div class="card Servicios">
+      <h6 class="card-header border-bottom  border-primary"><b>Habla con alguien de BzSoftwares</b></h6>
+      <div class="card-body">
+        <img class="imgofertas" style="width:20vw; height: 20vw;" src="/images/ofertas/oferta2.jpg">
+      </div>
+    </div>
+    </label>
+  </div>
+</div>
+<!-- fin ofertas -->
+<div class="wrap">
+  <div id="arrow-left" class="arrow"></div>
+  <div id="slider">
+    <div class="slide slideWeb">
+      <div class="slide-content">
+      </div>
+    </div>
+    <div class="slide slidePersonal">
+      <div class="slide-content">
+      </div>
+    </div>
+    <div class="slide slideInovacion">
+      <div class="slide-content">
+      </div>
+    </div>
+  </div>
+  <div id="arrow-right" class="arrow"></div>
+</div>
+<!-- fin ofertas slider -->
+      </div>
+    </section>
+    <!-- Precios end --> 
     <!-- Contact Me
     ============================================= -->
     <section id="contact" class="section bg-light">
@@ -413,7 +457,6 @@
     
   </div>
   <!-- Content end --> 
-  
   <!-- Footer
   ============================================= -->
   <footer id="footer" class="section">
@@ -473,7 +516,283 @@
   </div>
 </div>
 <!-- Disclaimer Modal End --> 
-
+<!--MODAL WEB -->
+<div class="modal fade" id="DesarrolloWeb" tabindex="-1" aria-labelledby="DesarrolloWebLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="DesarrolloWebLabel"><b class="text-primary">Desarrollo Web Servicios:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <li>Páginas Web estaticas y dinamicas</li><p></p>
+        <li>Aplicaciones Web</li><p></p>
+        <li>Tiendas en linea</li><p></p>
+        <li>Landing Pages</li><p></p>
+        <li>Webs para  E-Learning</li><p></p>
+        <li>Webs Informativas</li><p></p>
+        <li>Desarrollo en Woordpress</li><p></p>
+        <li>Desarrollo en Moodle</li><p></p>
+        <li>Proyectos personalizados</li><p></p>
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center><b>Puedes preguntar por mas Servicios de <b class="text-primary">Desarrollo Web &nbsp;</b></b></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END MODAL WEB -->
+<!-- modal MOVIL -->
+<div class="modal fade" id="DesarrolloMovil" tabindex="-1" aria-labelledby="DesarrolloMovilLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="DesarrolloWebLabel"><b class="text-primary">Desarrollo Movil Servicios:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <li>Diseño de Interfaces de Apps</li><p></p>
+        <li>Desarrollo para Android</li><p></p>
+        <li>Desarrollo para IOS</li><p></p>
+        <li>Aplicaciones Hibridas</li><p></p>
+        <li>Aplicaciones Nativas</li><p></p>
+        <li>Proyectos Personalizados</li><p></p>
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center><b>Puedes preguntar por mas Servicios de <b class="text-primary">Desarrollo Movil &nbsp;</b></b></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal MOVIL -->
+<!-- modal MONOLITICO -->
+<div class="modal fade" id="DesarrolloMonolitico" tabindex="-1" aria-labelledby="DesarrolloMonoliticoLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="DesarrolloMonoliticoLabel"><b class="text-primary">Desarrollo Monolitico Servicios:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <li>Desarrollo de aplicaciones de escritorio</li><p></p>
+        <li>Desarrollo para Windows</li><p></p>
+        <li>Desarrollo para Linux</li><p></p>
+        <li>Configuracion de Aplicaciones monoliticas a nivel LAN</li><p></p>
+        <li>Sistemas Personalizados</li><p></p>
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center><b>Puedes preguntar por mas Servicios de <b class="text-primary">Desarrollo Monolitico &nbsp;</b></b></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal MONOLITICO -->
+<!-- modal DEVOPS -->
+<div class="modal fade" id="DevOps" tabindex="-1" aria-labelledby="DevOpsLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="DevOpsLabel"><b class="text-primary">Nuestro Modo de desarrollo es:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <li>Agilidad en tiempos</li><p></p>
+        <li>Implementacion de metodologias</li><p></p>
+        <li>Desarrollo Continuo</li><p></p>
+        <li>Implementacion de seguridad</li><p></p>
+        <li>Pruebas de Testeos</li><p></p>
+        <li>Entrega Continua</li><p></p>
+        <li>Lanzamiento de desarrollos</li><p></p>
+        <li>Supervicion Continua</li><p></p>
+        <li>Migración de Servicios</li><p></p>
+        <li>Automatizacion de servicos</li><p></p>
+        <li>Escalabilidad y Disponibilidad</li><p></p>
+        <li>Inovacion</li><p></p>
+        <li>Mayores resultados</li><p></p>
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <b>Puedes preguntar por mas Servicios de <b class="text-primary">DevOps</b></b>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal DEVOPS -->
+<!-- modal OUSORCING -->
+<div class="modal fade" id="OutSorcing" tabindex="-1" aria-labelledby="OutSorcingLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="OutSorcingLabel"><b class="text-primary">Consultoria en:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <li>Planificacion de Proyectos</li><p></p>
+        <li>Establecimiento de Arquitecturas</li><p></p>
+        <li>Implementacion de patrones de diseño</li><p></p>
+        <li>Despliegue de metodologias</li><p></p>
+        <li>Modelado de Base de datos</li><p></p>
+        <li>Analisis de Escalabilidad</li><p></p>
+        <li>Creative and Desing por Analisis de UX & UI</li><p></p>
+        <li>Creacion de Miscroservios</li><p></p>
+        <li>Encargado de Proyectos</li><p></p>
+        <li>Equipos de desarrollo</li><p></p>
+        <li>Desarrollo de proyectos</li><p></p>
+        <li>Planificacion de tiempos y cronogramas de trabajo</li><p></p>
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center><b>Puedes preguntar por mas Servicios de <b class="text-primary">Consultoria &nbsp;</b></b></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal OUTSORCING -->
+<!-- modal MARKETING -->
+<div class="modal fade" id="Marketing" tabindex="-1" aria-labelledby="MarketingLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="MarketingLabel"><b class="text-primary">Servicios en Marketing Digital y Publicidad:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <li>Diseño Grafico</li><p></p>
+        <li>Creacion de Logotipos</li><p></p>
+        <li>Email Marketing</li><p></p>
+        <li>Marketing para E-Coomerce</li><p></p>
+        <li>Posicionamiento SEO,SEM,PPC</li><p></p>
+        <li>Estrategias de Marketing Digital</li><p></p>
+        <li>Publicidad Digital</li><p></p>
+        <li>Estudios de Mercado</li><p></p>
+        <li>Interpretacion de analisis de datos</li><p></p>
+        <li>Posicionamiento de tu Marca</li><p></p>
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center><b>Puedes preguntar por mas Servicios de <b class="text-primary">Marketing & Publicidad &nbsp;</b></b></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal MARKETING -->
+<!-- modal CLOUD -->
+<div class="modal fade" id="Cloud" tabindex="-1" aria-labelledby="CloudLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="CloudLabel"><b class="text-primary">Cloud Computing Servicios:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <li>Inteligencia Artificial</li><p></p>
+        <li>Creacion y condiguracion de servidores VPS</li><p></p>
+        <li>Bases de datos on Cloud</li><p></p>
+        <li>Creacion de paginas web Low Code</li><p></p>
+        <li>Creacion de aplicaciones moviles Low Code</li><p></p>
+        <li>Manejo de servicios Azure</li><p></p>
+        <li>Manejo de servicios AWS</li><p></p>
+        <li>Manejo de servicios Google cloud</li><p></p>
+        <li>Manejo de servicios Open Stack</li><p></p>
+        <li>Migraciones de datos</li><p></p>
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center><b>Puedes preguntar por mas Servicios de <b class="text-primary">Cloud Computing &nbsp;</b></b></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal CLOUD -->
+<!-- modal ARQUITECTURA -->
+<div class="modal fade" id="Arquitectura" tabindex="-1" aria-labelledby="ArquitecturaLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="ArquitecturaLabel"><b class="text-primary">Servicios en Arquitectura e Ingenieira:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        En proceso de subir los servicios...
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center><b>Puedes preguntar por mas Servicios de <b class="text-primary">Ingenieria y Arquitectura &nbsp;</b></b></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal ARQUITECTURA -->
+<!-- modal SOPORTE -->
+<div class="modal fade" id="Soporte" tabindex="-1" aria-labelledby="SoporteLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="SoporteLabel"><b class="text-primary">Servicios en Soporte Tecnico y Mantenimimiento:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <li>Soporte Tecnico Remoto</li><p></p>
+        <li>Mantenimiento de Sistemas</li><p></p>
+        <li>Configuracion de servidores</li><p></p>
+        <li>Asesoramiento de soporte de TI</li><p></p>
+        <li>Correcciones de aplicaciones y datos</li><p></p>
+        <li>Soporte de configuración</li><p></p>
+        <li>Soporte operativo</li><p></p>
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center><b>Puedes preguntar por mas Servicios de <b class="text-primary">Soporte & Mantenimiento &nbsp;</b></b></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal SOPORTE -->
+<!-- modal contratacion40 -->
+<div class="modal fade" id="contratacion40" tabindex="-1" aria-labelledby="contratacion40Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="contratacion40Label"><b class="text-primary">Obten 40% de descuento con nostros:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img style="width:100%;" src="/images/ofertas/oferta1.jpg">
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center> <b class="text-primary">BzSoftwares &nbsp;</b></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal pagoseguro -->
+<div class="modal fade" id="pagoseguro" tabindex="-1" aria-labelledby="pagoseguroLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="pagoseguroLabel"><b class="text-primary">Pregunta por tu metodo de pago favorito:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img style="width:100%;" src="/images/ofertas/oferta3.jpg">
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center> <b class="text-primary">BzSoftwares &nbsp;</b></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal cotizacion -->
+<div class="modal fade" id="cotizacion" tabindex="-1" aria-labelledby="cotizacionLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom  border-primary">
+        <h1 class="modal-title fs-5" id="cotizacionLabel"><b class="text-primary">Habla con alguien de BzSoftwares para ayudarte:</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img style="width:100%;" src="/images/ofertas/oferta2.jpg">
+      </div>
+      <div class="modal-footer border-bottom  border-primary">
+        <center> <b class="text-primary">BzSoftwares &nbsp;</b></center>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Styles Switcher -->
 <div id="styles-switcher" class="right">
   <h2 class="text-3">Cambia de color del texto</h2>
@@ -520,6 +839,7 @@
 <script src="js/switcher.min.js"></script> 
 <!-- Custom Script --> 
 <script src="js/theme.js"></script>
+<script src="js/script-Sliders.js"></script>
 <script id="google-recaptcha-v3" src="../../recaptcha/api.js?render=6LcmyrcZAAAAAIHP9WnJyuxn9vBiiro6WRpITEsQ"></script>
 </body>
 </html>
